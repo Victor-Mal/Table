@@ -1,0 +1,22 @@
+#table {
+    border-collapse: collapse;
+    text-align: center;
+}
+#table td {
+    border: solid black 2px;  
+}
+.last {
+    background-color: #061539;
+}
+#table > tbody td:nth-child(2n+1) {
+background-color: #dbdbdb;
+}
+#table > tbody td:nth-child(2n){
+background-color: #e7e7e7;
+}
+#table > thead {
+    color: white;
+}
+#table > tbody tr:nth-child(2n+1) {
+    background-color:#8a1818;
+}
