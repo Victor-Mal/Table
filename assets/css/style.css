@@ -1,0 +1,23 @@
+#table {
+    border-collapse: collapse;
+    text-align: center;
+}
+#table td {
+    padding: 10px 20px;
+    border: solid black 2px;  
+}
+#table :not(thead) tr:nth-child(odd) td:nth-child(odd) {
+background-color: #dbdbdb;
+}
+#table :not(thead) tr:nth-child(odd) td:nth-child(even), 
+#table :not(thead) tr:nth-child(even) td:nth-child(odd)
+{
+background-color: #e7e7e7;
+}
+#table :not(thead) tr:nth-child(even) td:nth-child(even) {
+background-color: #f3f3f3;
+}
+
+#table > thead {
+    color: white;
+}
